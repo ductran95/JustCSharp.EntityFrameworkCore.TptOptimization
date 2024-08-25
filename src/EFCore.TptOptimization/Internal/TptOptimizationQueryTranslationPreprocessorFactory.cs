@@ -124,7 +124,7 @@ internal class WithoutDerivedTypesEntityVisitor : ExpressionVisitor
         {
             if (runtimeEntityType.DirectlyDerivedTypes.Any())
             {
-                var directlyDerivedTypes = new SortedSet<RuntimeEntityType>();
+                var directlyDerivedTypes = new SortedSet<RuntimeEntityType>(TypeBaseNameComparer.Instance);
                 foreach (var derivedType in runtimeEntityType.DirectlyDerivedTypes.Cast<RuntimeEntityType>())
                 {
                     directlyDerivedTypes.Add(derivedType);
