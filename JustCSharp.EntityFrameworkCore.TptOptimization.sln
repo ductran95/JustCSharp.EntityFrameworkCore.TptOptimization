@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5D203E9-41A9-43F2-AA30-305B4AE0B5F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DD441DF9-44D4-4374-BADF-097604985049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark", "benchmark", "{DDD89D4B-4071-42C8-91FD-0DBAB2E8E847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization", "src\EFCore.TptOptimization\EFCore.TptOptimization.csproj", "{5AF7C26B-C081-4BDB-A2DB-FA1645AC9B82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D52B510-561E-4935-90D1-21846217E1F7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		README.md = README.md
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Tests", "test\EFCore.TptOptimization.Tests\EFCore.TptOptimization.Tests.csproj", "{FB174EFA-52E8-4E76-8AEA-049EFA3514C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Sqlite.FunctionalTests", "test\EFCore.TptOptimization.Sqlite.FunctionalTests\EFCore.TptOptimization.Sqlite.FunctionalTests.csproj", "{AE53F3FF-9E85-4DF0-92D6-6C39278CE56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.SqlServer.FunctionalTests", "test\EFCore.TptOptimization.SqlServer.FunctionalTests\EFCore.TptOptimization.SqlServer.FunctionalTests.csproj", "{E608A0CB-735B-4FD3-9AC9-789C2282D926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Postgresql.FunctionalTests", "test\EFCore.TptOptimization.Postgresql.FunctionalTests\EFCore.TptOptimization.Postgresql.FunctionalTests.csproj", "{1F18AD4E-93DF-4881-A245-668BC5C72B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Benchmarks", "benchmark\EFCore.TptOptimization.Benchmarks\EFCore.TptOptimization.Benchmarks.csproj", "{A8F1E1B0-CE72-4643-9231-472BCF885D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AF7C26B-C081-4BDB-A2DB-FA1645AC9B82} = {C5D203E9-41A9-43F2-AA30-305B4AE0B5F6}
+		{FB174EFA-52E8-4E76-8AEA-049EFA3514C0} = {DD441DF9-44D4-4374-BADF-097604985049}
+		{AE53F3FF-9E85-4DF0-92D6-6C39278CE56F} = {DD441DF9-44D4-4374-BADF-097604985049}
+		{E608A0CB-735B-4FD3-9AC9-789C2282D926} = {DD441DF9-44D4-4374-BADF-097604985049}
+		{1F18AD4E-93DF-4881-A245-668BC5C72B67} = {DD441DF9-44D4-4374-BADF-097604985049}
+		{A8F1E1B0-CE72-4643-9231-472BCF885D5C} = {DDD89D4B-4071-42C8-91FD-0DBAB2E8E847}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF7C26B-C081-4BDB-A2DB-FA1645AC9B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF7C26B-C081-4BDB-A2DB-FA1645AC9B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF7C26B-C081-4BDB-A2DB-FA1645AC9B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF7C26B-C081-4BDB-A2DB-FA1645AC9B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB174EFA-52E8-4E76-8AEA-049EFA3514C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB174EFA-52E8-4E76-8AEA-049EFA3514C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB174EFA-52E8-4E76-8AEA-049EFA3514C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB174EFA-52E8-4E76-8AEA-049EFA3514C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE53F3FF-9E85-4DF0-92D6-6C39278CE56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE53F3FF-9E85-4DF0-92D6-6C39278CE56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE53F3FF-9E85-4DF0-92D6-6C39278CE56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE53F3FF-9E85-4DF0-92D6-6C39278CE56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E608A0CB-735B-4FD3-9AC9-789C2282D926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E608A0CB-735B-4FD3-9AC9-789C2282D926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E608A0CB-735B-4FD3-9AC9-789C2282D926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E608A0CB-735B-4FD3-9AC9-789C2282D926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F18AD4E-93DF-4881-A245-668BC5C72B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F18AD4E-93DF-4881-A245-668BC5C72B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F18AD4E-93DF-4881-A245-668BC5C72B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F18AD4E-93DF-4881-A245-668BC5C72B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F1E1B0-CE72-4643-9231-472BCF885D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F1E1B0-CE72-4643-9231-472BCF885D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F1E1B0-CE72-4643-9231-472BCF885D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F1E1B0-CE72-4643-9231-472BCF885D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

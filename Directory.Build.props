@@ -1,0 +1,40 @@
+﻿<!-- See https://aka.ms/dotnet/msbuild/customize for more details on customizing your build -->
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>ASP0023</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Duc Tran</Authors>
+    <Copyright>Copyright Duc Tran</Copyright>
+    <PackageReleaseNotes>For full release notes see https://github.com/ductran95/JustCSharp.EFCore.TptOptimization/main/releasenotes.md</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ductran95/JustCSharp.EFCore.TptOptimization</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ductran95/JustCSharp.EFCore.TptOptimization.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <SignAssembly>false</SignAssembly>
+
+    <UpdateVersionProperties>true</UpdateVersionProperties>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <LangVersion>latest</LangVersion>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
+    <MinVerVerbosity>normal</MinVerVerbosity>
+    <MinVerIgnoreHeight>false</MinVerIgnoreHeight>
+    <MinVerDefaultPreReleaseIdentifiers></MinVerDefaultPreReleaseIdentifiers>
+  </PropertyGroup>
+
+  <Target Name="CustomVersion" AfterTargets="MinVer">
+    <PropertyGroup>
+      <FileVersion>$(MinVerMajor).$(MinVerMinor).$(MinVerPatch)</FileVersion>
+      <AssemblyVersion>$(MinVerMajor).$(MinVerMinor).$(MinVerPatch)</AssemblyVersion>
+    </PropertyGroup>
+  </Target>
+</Project>
