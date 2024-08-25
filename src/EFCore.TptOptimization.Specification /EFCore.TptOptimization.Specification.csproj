@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <AssemblyName>JustCSharp.EntityFrameworkCore.TptOptimization.Specification</AssemblyName>
+        <RootNamespace>JustCSharp.EntityFrameworkCore.TptOptimization.Specification</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Ardalis.Specification" />
+        <PackageReference Include="MinVer" PrivateAssets="All" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\EFCore.TptOptimization\EFCore.TptOptimization.csproj" />
+    </ItemGroup>
+</Project>

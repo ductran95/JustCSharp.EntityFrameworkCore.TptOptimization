@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Post
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Benchmarks", "benchmark\EFCore.TptOptimization.Benchmarks\EFCore.TptOptimization.Benchmarks.csproj", "{A8F1E1B0-CE72-4643-9231-472BCF885D5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Specification", "src\EFCore.TptOptimization.Specification \EFCore.TptOptimization.Specification.csproj", "{A3456BFA-AE13-4AC2-B551-659D3C0812C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,7 @@ Global
 		{E608A0CB-735B-4FD3-9AC9-789C2282D926} = {DD441DF9-44D4-4374-BADF-097604985049}
 		{1F18AD4E-93DF-4881-A245-668BC5C72B67} = {DD441DF9-44D4-4374-BADF-097604985049}
 		{A8F1E1B0-CE72-4643-9231-472BCF885D5C} = {DDD89D4B-4071-42C8-91FD-0DBAB2E8E847}
+		{A3456BFA-AE13-4AC2-B551-659D3C0812C5} = {C5D203E9-41A9-43F2-AA30-305B4AE0B5F6}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5AF7C26B-C081-4BDB-A2DB-FA1645AC9B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -64,5 +67,9 @@ Global
 		{A8F1E1B0-CE72-4643-9231-472BCF885D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8F1E1B0-CE72-4643-9231-472BCF885D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8F1E1B0-CE72-4643-9231-472BCF885D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3456BFA-AE13-4AC2-B551-659D3C0812C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3456BFA-AE13-4AC2-B551-659D3C0812C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3456BFA-AE13-4AC2-B551-659D3C0812C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3456BFA-AE13-4AC2-B551-659D3C0812C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
