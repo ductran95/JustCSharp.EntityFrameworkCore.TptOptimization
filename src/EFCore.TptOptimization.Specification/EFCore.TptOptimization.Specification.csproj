@@ -14,4 +14,8 @@
     <ItemGroup>
       <ProjectReference Include="..\EFCore.TptOptimization\EFCore.TptOptimization.csproj" />
     </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 </Project>

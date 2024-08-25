@@ -16,7 +16,7 @@
     <RepositoryUrl>https://github.com/ductran95/JustCSharp.EFCore.TptOptimization.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <SignAssembly>false</SignAssembly>
-
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <UpdateVersionProperties>true</UpdateVersionProperties>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <LangVersion>latest</LangVersion>
