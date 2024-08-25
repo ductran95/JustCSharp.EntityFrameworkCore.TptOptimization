@@ -105,7 +105,7 @@ internal class ReturnDerivedTypesEntityVisitor : ExpressionVisitor
                 {
                     var annotationValue = runtimeEntityType.FindRuntimeAnnotation(QueryableExtensions.WithoutDerivedTypesTagPrefix);
             
-                    if (annotationValue != null && annotationValue.Value is SortedSet<RuntimeTypeBase> directlyDerivedTypes)
+                    if (annotationValue != null && annotationValue.Value is SortedSet<RuntimeEntityType> directlyDerivedTypes)
                     {
                         foreach (var derivedType in directlyDerivedTypes)
                         {
