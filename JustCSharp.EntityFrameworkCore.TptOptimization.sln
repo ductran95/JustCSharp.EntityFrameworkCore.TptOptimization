@@ -26,7 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Post
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Benchmarks", "benchmark\EFCore.TptOptimization.Benchmarks\EFCore.TptOptimization.Benchmarks.csproj", "{A8F1E1B0-CE72-4643-9231-472BCF885D5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Specification", "src\EFCore.TptOptimization.Specification \EFCore.TptOptimization.Specification.csproj", "{A3456BFA-AE13-4AC2-B551-659D3C0812C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TptOptimization.Specification", "src\EFCore.TptOptimization.Specification\EFCore.TptOptimization.Specification.csproj", "{A3456BFA-AE13-4AC2-B551-659D3C0812C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
